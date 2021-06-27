@@ -3,13 +3,13 @@
 }
 
 html {
-  height: 100vh;
+  height: 100%;
 }
 
 
 .wrapper {
   display: flex;
-  min-height: 100vh;
+  min-height: 100%;
 }
 
 .content {
@@ -57,7 +57,7 @@ html {
 }
 
 .chat {
-  height: calc(100vh - 82px - 100px);
+  height: calc(100% - 82px - 100px);
   box-sizing: border-box;
   overflow: auto;
 }
