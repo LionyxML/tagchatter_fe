@@ -86,12 +86,12 @@ function printPosts(messagesList) {
 function parrotMessage(e) {
   // Request de marcação "parrot" no servidor
 
-  parrot = e.target.classList.toggle('parrot-color');
   id = e.target.parentElement.parentElement.parentElement.id;
   post = document.getElementById(id);
   post.classList.toggle('parroted-post');
+  e.target.classList.toggle('parrot-color');
 
-  if (parrot) {
+  if (e.target.classList.contains('parrot-color')) {
     fetch(apiURL + '/messages/' + id + '/parrot', { method: 'PUT' });
   } else {
     fetch(apiURL + '/messages/' + id + '/unparrot', { method: 'PUT' });
