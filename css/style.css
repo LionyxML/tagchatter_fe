@@ -58,7 +58,6 @@ html {
 
 .chat {
   height: calc(100vh - 82px - 100px);
-  height: calc(var(--vh, 1vh) * 100 - 82px - 100px);
   box-sizing: border-box;
   overflow: auto;
 }
