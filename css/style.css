@@ -6,6 +6,7 @@ html {
   height: 100%;
 }
 
+
 .wrapper {
   display: flex;
   min-height: 100%;
@@ -222,10 +223,8 @@ html {
 .alert__message {
   margin: 2rem;
   font-size: 1.2rem;
-  border: solid 2px #ff726f;
   color: #ff726f;
   padding: 0.3rem;
-  border-radius: 3px;
 }
 
 .alert__btn {
