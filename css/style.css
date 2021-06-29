@@ -6,7 +6,6 @@ html {
   height: 100%;
 }
 
-
 .wrapper {
   display: flex;
   min-height: 100%;
@@ -18,7 +17,7 @@ html {
 
 .sidebar {
   width: 80px;
-  background-color: #25272E;
+  background-color: #25272e;
 }
 
 .sidebar__logo::after {
@@ -26,13 +25,13 @@ html {
   width: 100%;
   height: 2px;
   display: block;
-  background-color: #1D2028;
-  border-bottom: 1px solid #31343C;
+  background-color: #1d2028;
+  border-bottom: 1px solid #31343c;
 }
 
 .header {
   height: 82px;
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
   padding: 16px 22px;
   color: #626262;
   display: flex;
@@ -40,7 +39,7 @@ html {
 }
 
 .header__title {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   font-size: 36px;
@@ -51,7 +50,7 @@ html {
 }
 
 .header__parrots-count::before {
-  content: url('../images/greyscale.svg');
+  content: url("../images/greyscale.svg");
   align-self: center;
   margin-right: 10px;
 }
@@ -64,7 +63,7 @@ html {
 
 .msgbox {
   height: 100px;
-  background: #EFEFEF;
+  background: #efefef;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -92,7 +91,7 @@ html {
   padding-left: 15px;
   padding-top: 16px;
   padding-bottom: 19px;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 14px;
   line-height: 16.8px;
   color: #393939;
@@ -102,7 +101,7 @@ html {
   margin-left: 24px;
   margin-right: 24px;
   border-radius: 6px;
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .msgbox__mypic:hover {
@@ -140,7 +139,7 @@ html {
 }
 
 .username {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 15px;
 }
 
@@ -150,18 +149,18 @@ html {
   margin-right: 7px;
   height: 5px;
   border-radius: 100%;
-  width:5px;
-  background: #E5E5E5;
+  width: 5px;
+  background: #e5e5e5;
 }
 
 .time {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-size: 12px;
-  color: #D1D1D1;
+  color: #d1d1d1;
 }
 
 .parrot {
-  content: url('../images/greyscale.svg');
+  content: url("../images/greyscale.svg");
   align-self: center;
   margin-right: 10px;
   width: 28px;
@@ -170,20 +169,20 @@ html {
 }
 
 .parrot:hover {
-  content: url('../images/parrot.gif');
+  content: url("../images/parrot.gif");
 }
 
 .parrot-color {
-  content: url('../images/parrot.gif');
+  content: url("../images/parrot.gif");
   cursor: pointer;
 }
 
 .parroted-post {
-  background-color: #FFFAE7;
+  background-color: #fffae7;
 }
 
 .post__msg__text {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-size: 14px;
   line-height: 21px;
   color: #494949;
@@ -211,11 +210,11 @@ html {
 }
 
 .alert__title {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: normal;
   line-height: normal;
   font-size: 36px;
-  border-bottom: 1px solid #EEEEEE;
+  border-bottom: 1px solid #eeeeee;
   margin: 1.2rem;
   padding-bottom: 0.25rem;
 }
