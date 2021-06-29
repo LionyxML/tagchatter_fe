@@ -24,5 +24,5 @@ Onde:
 Basta servir o diretório raiz do projeto.
 
 ## Link para testes
-Esse repositório está servido no github pages pelo caminho:
+Esse repositório está hospedado no github-pages pelo caminho:
 [https://lionyxml.github.io/tagchatter_fe/index.html](https://lionyxml.github.io/tagchatter_fe/index.html)
