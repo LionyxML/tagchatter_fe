@@ -46,7 +46,7 @@ function formatPost(post) {
   // Recebe o POST em JSON e formata resposta de acordo com o
   // Esqueleto de formatação de um post
 
-  d = new Date(post.created_at);
+  let d = new Date(post.created_at);
   return (`
   <div class="post ${post.has_parrot ? 'parroted-post' : ''}" id="${post.id}">
     <img src="${post.author.avatar}" width=34 height=34 alt="poster avatar" class="post__pic">
@@ -70,7 +70,7 @@ function formatPost(post) {
 function printPosts(messagesList) {
   // Imprime os posts para a área de chat
 
-  chatArea = document.getElementsByClassName('chat')[0];
+  const chatArea = document.getElementsByClassName('chat')[0];
 
   chatArea.innerHTML = '';
 
@@ -86,8 +86,8 @@ function printPosts(messagesList) {
 function parrotMessage(e) {
   // Request de marcação "parrot" no servidor
 
-  id = e.target.parentElement.parentElement.parentElement.id;
-  post = document.getElementById(id);
+  const id = e.target.parentElement.parentElement.parentElement.id;
+  let post = document.getElementById(id);
   post.classList.toggle('parroted-post');
   e.target.classList.toggle('parrot-color');
 
