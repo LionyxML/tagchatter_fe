@@ -229,7 +229,7 @@ html {
 
 .alert__btn {
   color: white;
-  background-color: #ffcccb;
+  background-color: #ff726f;
   border-radius: 10px;
   width: 40%;
   text-align: center;
@@ -242,7 +242,7 @@ html {
 }
 
 .alert__btn:hover {
-  background-color: #ff726f;
+  background-color: #ffcccb;
   transform: scale(1.2);
 }
 

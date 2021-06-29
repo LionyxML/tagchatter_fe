@@ -49,14 +49,14 @@ function formatPost(post) {
   let d = new Date(post.created_at);
   return (`
   <div class="post ${post.has_parrot ? 'parroted-post' : ''}" id="${post.id}">
-    <img src="${post.author.avatar}" width=34 height=34 alt="poster avatar" class="post__pic">
+    <img src="${post.author.avatar}" width="34" height="34" alt="poster avatar" class="post__pic">
     <div class="post__msg">
       <div class="post__msg__header">
         <span class="username">${post.author.name}</span>
         <span class="separator"></span>
         <span class="time">${d.getHours() + ':' + ('0' + d.getMinutes()).substr(-2)}</span>
         <span class="separator"></span>
-        <div onclick="parrotMessage(event)"
+        <div onClick="parrotMessage(event)"
           class="parrot ${post.has_parrot ? 'parrot-color' : ''}"></div>
       </div>
       <div class="post__msg__text">
